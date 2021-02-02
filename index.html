@@ -53,10 +53,12 @@
 		<section class="section-1">
 			<div class="sect-container-1 dis-flex sp-arnd">
 				<div class="container-1-box dis-flex sp-arnd">
-					<img src="img/sec-1-img-1.jpg" alt="">
+					<div class="img-box">
+					  <img src="img/sec-1-img-1.jpg" alt="sec-image">
+				    </div>
 					<div class="img-box dis-flex sp-btwn">
-					  <img src="img/sec-1-img-2.jpg" alt="">
-					  <img src="img/sec-1-img-3.jpg" alt="">
+					  <img src="img/sec-1-img-2.jpg" alt="sec-image">
+					  <img src="img/sec-1-img-3.jpg" alt="sec-image">
 					</div>
 				</div>
 				<div class="container-1-box dis-flex align-center ">
@@ -79,7 +81,7 @@
 			<div class="sect-container-2 dis-flex sp-btwn">
 				<div class="dis-flex sp-arnd">
 				  <div class="container-2-box dis-flex sp-btwn align-center">
-					<img src="img/cont-2-img-1.jpg" alt="">
+					<img src="img/cont-2-img-1.jpg" alt="sec2-image">
 					<div class="container-text dis-flex">
 					  <h4 class="box-h4">Food</h4>
 					  <h3 class="box-h3">Fresh fish and onions</h3>
@@ -92,7 +94,7 @@
 					</div>
 				  </div>
 				  <div class="container-2-box dis-flex sp-btwn align-center">
-					<img src="img/cont-2-img-2.jpg" alt="">
+					<img class="1-box-img" src="img/cont-2-img-2.jpg" alt="sec2-image">
 					<div class="container-text dis-flex">
 					  <h4 class="box-h4">Desert</h4>
 					  <h3 class="box-h3">Chocolate cupcakes</h3>
@@ -107,7 +109,7 @@
 				</div>
 				<div class="dis-flex sp-arnd row-rev">
 				  <div class="container-2-box dis-flex sp-btwn align-center">
-					<img src="img/cont-2-img-1.jpg" alt="">
+					<img class="1-box-img" src="img/cont-2-img-1.jpg" alt="sec2-image">
 					<div class="container-text dis-flex">
 					  <h4 class="box-h4">Food</h4>
 					  <h3 class="box-h3">Fresh fish and onions</h3>
@@ -120,7 +122,7 @@
 					</div>
 				  </div>
 				  <div class="container-2-box dis-flex sp-btwn align-center">
-					<img src="img/cont-2-img-2.jpg" alt="">
+					<img class="1-box-img" src="img/cont-2-img-2.jpg" alt="sec2-image">
 					<div class="container-text dis-flex">
 					  <h4 class="box-h4">Desert</h4>
 					  <h3 class="box-h3">Chocolate cupcakes</h3>
@@ -138,13 +140,9 @@
 		<section class="section-2">
 			<form class="sec-2-container dis-flex sp-arnd align-center">
 			  <div class="form-box dis-flex sp-btwn">
-				<label class="data-text" for="chdate">check in date</label>
-				<input class="date-box" type="date" id="chdate" name="chdate">
-			  </div>
-			  <div class="form-box dis-flex sp-btwn">
 				<div class="form-box dis-flex sp-btwn">
-				  <label class="data-text" for="birthday">check in date</label>
-				  <input class="date-box" type="date" id="birthday" name="birthday">
+				  <label class="data-text" for="chdate">check in date</label>
+				  <input class="date-box" type="date" id="chdate" name="chdate">
 				</div>
 			  </div>
 			  <div class="form-box dis-flex sp-btwn">
@@ -153,16 +151,30 @@
 				  <input class="date-box" type="date" id="birthday" name="birthday">
 				</div>
 			  </div>
-			  <input class="date-box" type="submit" value="Submit">
+			  <div class="form-box dis-flex sp-btwn">
+				<div class="form-box dis-flex sp-btwn">
+				  <label class="data-text" for="birthday">check in date</label>
+				  <input class="date-box" type="date" id="birthday" name="birthday">
+				</div>
+			  </div>
+			  <div class="form-box dis-flex fl-end">
+			    <input class="date-box" type="submit" value="Submit">
+			  </div>
 			</form>
 			<div class="box-wrap">
 				<h4 class="box-h4">Photos</h4>
 				<h2 class="box-h2">See our latest photosfrom restaurant and hotel</h2>
 			  </div>
 			<div class="sec-2-container-2 dis-flex sp-btwn">
-				<img src="img/sec-2-img-1.jpg" alt="section-image">
-				<img src="img/sec-2-img-2.jpg" alt="section-image">
-                <img src="img/sec-2-img-3.jpg" alt="section-image">
+				<div class="img-box dis-flex">
+				  <img src="img/sec-2-img-1.jpg" alt="section-image">
+				</div>
+				<div class="img-box dis-flex">
+				  <img src="img/sec-2-img-2.jpg" alt="section-image">
+				</div>
+				<div class="img-box dis-flex">
+				  <img src="img/sec-2-img-3.jpg" alt="section-image">
+				</div>
 			</div>
 		</section>
 		<footer class="futer-bg dis-flex sp-arnd align-center">
