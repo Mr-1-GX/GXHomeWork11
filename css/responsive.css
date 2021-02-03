@@ -188,3 +188,8 @@
         left: 63%;
     }
 }
+@media (max-width: 430px) {
+    .h1-box {
+        left: 20%;
+    }
+}
