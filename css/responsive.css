@@ -192,4 +192,25 @@
     .h1-box {
         left: 20%;
     }
+    .container-1-box {
+        width: 100%;
+    }
+    .copyrig-site {
+        top: 85%;
+        left: 25%;
+    }
+    .futer-bg {
+        height: 900px;
+        flex-direction: initial;
+    }
+    .footer-container-2 {
+        height: 400px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .copyrig {
+        width: 130px;
+        top: 76%;
+        left: 30%;
+    }
 }
