@@ -221,7 +221,7 @@
         margin-bottom: 10px;
     }
 }
-@media (max-width: 320px) {
+@media (max-width: 330px) {
     .h1-box {
         top: 22%;
         left: 12%;
