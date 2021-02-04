@@ -195,6 +195,9 @@
     .container-1-box {
         width: 100%;
     }
+    .container-1-box:nth-child(1) {
+        width: 100%;
+    }
     .copyrig-site {
         top: 85%;
         left: 25%;
@@ -212,5 +215,44 @@
         width: 130px;
         top: 76%;
         left: 30%;
+    }
+    .img-box {
+        height: 100%;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 320px) {
+    .h1-box {
+        top: 22%;
+        left: 12%;
+    }
+    .container-1-box:nth-child(1) {
+        width: 100%;
+    }
+    .container-2-wrap {
+        width: 100%;
+    }
+    .container-2-box {
+        flex-wrap: wrap;
+        margin-bottom: 35px;
+    }
+    .container-text {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .img-box {
+        height: 100%;
+        margin-bottom: 10px;
+    }
+    .text-boton {
+        margin-top: 10px;
+    }
+    .room-box {
+        padding-top: 10px;
+        text-align: center;
+    }
+    .room-flex {
+        padding-top: 20px;
+        justify-content: center;
     }
 }
